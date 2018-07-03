@@ -1,0 +1,13 @@
+{
+  "name": "QR Scanner Progressive Web App",
+  "short_name": "QR Scanner",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#8658eb",
+  "description": "A QR Scanner as a Progressive Web App.",
+  "icons": [{
+    "src": "images/touch/homescreen192.png",
+    "sizes": "240x240",
+    "type": "image/png"
+  }]
+}
