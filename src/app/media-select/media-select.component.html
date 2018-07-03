@@ -1,0 +1,10 @@
+<select
+  name="device"
+  [ngModel]="selectedDevice"
+  (ngModelChange)="emitChange($event)"
+>
+  <option
+    *ngFor="let devInfo of mediaDevices"
+    [ngValue]="devInfo"
+  >{{devInfo.label}}</option>
+</select>

@@ -1,0 +1,36 @@
+:host {
+  font-family: Lato;
+}
+
+.app-grid {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.media-selector {
+  // height: 50px;
+}
+
+.video-box {
+  flex: 1;
+
+  &.hidden {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  video,
+  canvas {
+    width: 100%;
+  }
+}
+
+.url-window {
+  position: fixed;
+  bottom: 0;
+  padding: 1em 0;
+  text-align: center;
+  border-top: 1px solid #aaa;
+  width: 100%;
+}
